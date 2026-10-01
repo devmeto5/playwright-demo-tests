@@ -1,0 +1,19 @@
+{
+  "name": "playwright-demo-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple, self-contained Playwright UI testing project",
+  "scripts": {
+    "start": "node demo/server.js",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
