@@ -46,3 +46,5 @@ CI retries failures twice and captures a trace on the first retry. Failure scree
 Add `*.spec.js` files in `tests/` and prefer role or label locators. The example resolves the included HTML file to a portable file URL. To test your own web application, add `baseURL` and `webServer` to the configuration and navigate to your application instead.
 
 See the official [Playwright documentation](https://playwright.dev/docs/intro) and [CI guide](https://playwright.dev/docs/ci-intro).
+
+Connection test: this line was added and pushed directly from ChatGPT via the GitHub connector.
